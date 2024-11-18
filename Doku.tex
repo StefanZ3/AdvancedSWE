@@ -1,0 +1,90 @@
+% !TEX encoding = UTF-8 Unicode
+
+% Beispiel für ein LaTeX-Dokument im Format "seminarvorlage"
+\documentclass[ngerman]{seminarvorlage}
+% ngerman = Deutsch in neuer Rechtschreibung, alternativ english
+\usepackage{babel} % automatische Sprachunterstützung
+
+\usepackage[utf8]{inputenc} % Kodierung der Non-ASCII-Zeichen
+\usepackage[T1]{fontenc} % Moderne Fonts, Trennung von Wörtern mit Umlauten
+\usepackage{cleveref} % für bequeme Referenzen, siehe \cref unten
+
+\usepackage{embrac}% upright brackets in emphasised text, () and [], empfohlen
+
+%\usepackage{biblatex}% besser als bibtex, aber dann biber statt bibtex benutzen
+
+\begin{document}
+
+% Unbedingt angeben: Titel, Autoren
+% Freiwillig: Adresse, E-Mail
+\title{Warum keiner mehr agil arbeiten will}
+\numberofauthors{2}
+\author{
+  \alignauthor Je Li Bon \\
+    \email{je@libon.org}
+  \alignauthor Han Srieger\\
+    \email{i72160@hb.dhbw-stuttgart.de}
+}
+
+\maketitle% Titelangaben produzieren, aber kein Inhaltsverzeichnis, \tableofcontents funktioniert nicht!
+\newpage
+
+\abstract{
+}
+
+\keywords{.}
+
+% Section-Überschriften werden automatisch in GROSSBUCHSTABEN gesetzt
+\section{Einleitung}
+
+In einer sich rasant wandelnden Welt sind agile Methoden für Unternehmen unverzichtbar geworden.\\
+Technologische Fortschritte in Bereichen wie Robotik, Biotechnologie oder künstlicher Intelligenz schaffen schnell neue Möglichkeiten und machen deren Komplexität kaum vorhersehbar. Klimaveränderungen und deren Folgen wie Wassermangel oder extreme Wetterereignisse beeinflussen Logistik und Investitionsentscheidungen. Zudem können neue Zollvorschriften lukrative Geschäftsmodelle von einem Tag auf den anderen zunichtemachen.\\
+Diese Dinge führen zu einer Schnelllebigkeit, wodurch es Unternehmen schwerfällt, mit klassischen Methoden und starren Geschäftsmodellen ihre Marktposition zu halten. Daher mussten neue Arbeitsweisen gefunden werden, um sich kontinuierlich und schnell an Veränderungen anpassen zu können.\\
+Neben diesen externen Faktoren gibt es auch noch interne Gründe für die Einführung neuer Arbeitsweisen.
+Ein wesentlicher interner Treiber ist der Wertewandel im Arbeitsleben. Arbeitnehmer haben den Wunsch eigenverantwortlich Aufgaben zu übernehmen und für den Innovationserfolg des Unternehmens beizutragen.\\
+ Agile Methoden wurden daher entwickelt, um sowohl den äußeren Anforderungen als auch den veränderten Erwartungen ihrer Mitarbeitenden gerecht zu werden.%quelle beide bücher
+
+Aktuell werden agile Arbeitsweisen zunehmend hinterfragt und teilweise als ineffektiv und unattraktiv wahrgenommen.\\
+Das Ziel dieser Arbeit ist es, die Gründe für diese negative Wahrnehmung zu untersuchen und zu erläutern, warum immer weniger Mitarbeitende bereit sind, agile Methoden anzuwenden. Es wird dabei auf die unterschiedlichen Faktoren eingegangen, welche zur Ablehnung im Umgang mit agilen Methoden führen. Anschließend werden die Auswirkungen des Widerstands gegen agiles Arbeiten erläutert. Abschließend werden Lösungsvorschläge zur Verbesserung der Wahrnehmung und Effizienz von agilen Arbeitsmethoden vorgestellt.
+
+
+
+% Jede Section am besten mit einem Kommentar hier im Quelltext markieren
+\section{Agiles Arbeiten}
+- Was bedeutet agiles arbeiten \& Agiles Manifest
+
+- Vorstellung einzelner Methoden (Scrum, Kanban)
+
+- Vorteile
+
+\section{Gründe für das abnehmende Interesse von agilen Methoden}
+\section{Auswirkungen des abnehmenden Interesses an agilen Methoden}
+\section{Lösungsvorschläge und Empfehlungen}
+
+
+% und schon der letzte Abschnitt
+\section{Fazit}
+
+
+% Bibliographie entweder direkt hier eingeben (nur im Notfall)...
+%\begin{thebibliography}{9}
+%\bibitem{ACM2019}
+%ACM.
+%\newblock How to classify works using ACM's computing classification system.
+%\newblock \url{http://www.acm.org/class/how_to_use.html}.
+%
+%\bibitem{Ivory2001}
+%M.~Y. Ivory and M.~A. Hearst.
+%\newblock The state of the art in automating usability evaluation of user
+%  interfaces.
+%\newblock {\em ACM Comput. Surv.}, 33(4):470--516, 2001.
+%
+%\end{thebibliography}
+
+% ... oder die Bibliographie mit Hilfe von BibTeX generieren,
+% dies ist auf jeden Fall die bessere Lösung und sollte nach
+% Möglichkeit immer verwendet werden:
+%\bibliographystyle{abbrv}
+%\bibliography{literatur} % Daten aus der Datei literatur.bib verwenden.
+
+\end{document}
