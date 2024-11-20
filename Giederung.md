@@ -5,7 +5,7 @@
 ### 1. Einleitung
 
 - Einführung in das Thema: Warum agile Arbeitsmethoden eingeführt wurden und ihre ursprünglichen Ziele
-- Fragestellung und Zielsetzung der Hausarbeit und Aufbau der Arbeit
+- Fragestellung, Zielsetzung und Aufbau der Arbeit
 
 ### 2. Grundlagen Agilität
 
