@@ -9,6 +9,7 @@
 
 ### 2. Grundlagen Agilität
 
+- Historischer Kontext (Entstehung agiler Methoden)
 - Definition von agilem Arbeiten
 - Agiles Manifest
 - Modelle (Scrum, Kanban)
@@ -23,9 +24,14 @@
 
 ### 4. Auswirkungen
 
+- Auf die Teamdynamik (Frustration, Demotivation, Konflikte)
+- Auf Unternehmen (Fehlende Effizienz, hohe Kosten, sinkende Wettbewerbsfähigkeit)
+- Auf die Arbeitskultur (Vertrauensverlust in moderne Methoden, Rückkehr zu traditionellen Ansätzen)
 
 
 ### 5. Alternativen und Lösungsansätze
+- Hybride Ansätze
+- ...
 
 
 
