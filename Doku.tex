@@ -11,6 +11,7 @@
 
 \usepackage{embrac}% upright brackets in emphasised text, () and [], empfohlen
 \usepackage{pgfplots}
+\usepackage{graphicx}
 
 %\usepackage{biblatex}% besser als bibtex, aber dann biber statt bibtex benutzen
 
@@ -70,6 +71,18 @@ Eine gute Zusammenarbeit mit dem Kunden ist wichtiger als ein formaler und wasse
 \textbf{Reagieren auf Veränderungen} mehr als das Befolgen eines Plans\\
 Ein Plan kann nur so gut sein, wie der Wissenstand zu diesem Zeitpunkt es erlaubt. Da sich Wissen und Rahmenbedingungen kontinuierlich weiterentwickeln, ist es wichtig, auf Veränderungen reagieren zu können. Pläne sollen nicht abgeschafft werden, sollten bei Veränderungen jedoch angepasst werden können.\\
 
+\subsection{Unterschied zur klassischen Arbeitsweise}
+Die klassischen und agilen Methoden unterscheiden sich grundlegend in ihrer Herangehensweise an Projekten. Klassische Modelle wie das Wasserfallmodell basieren auf klar strukturierten Vorgehensweisen, während sich agile Methoden durch Flexibilität und iterative Prozesse auszeichnen.\\
+\begin{figure}[h]
+\centering
+\includegraphics[scale=.5]{"images/klassisch_agil.png"}
+\caption{Unterschied klassische vs agile Planung}
+\label{agil}
+\end{figure}
+
+In \autoref{agil} ist der Vergleich zwischen der klassischen Planung und der agilen Planung zu sehen. Die Grafik verdeutlicht die entgegengesetzten Prioritäten und Flexibilität der beiden Ansätze.\\ Bei der klassischen Planung sind die Ziele fix, also unveränderlich. Zeit und Kosten sind dagegen variabel und können angepasst werden, um die Ziele zu erreichen. Bei der agilen Planung hingegen sind Kosten und Zeit fix, während die Ziele variabel sind und an Zeit und Kosten angepasst werden.\\  Der klassische Ansatz ist plangetrieben, dabei liegt der Fokus auf der exakten Umsetzung der festgelegten Pläne, unabhängig von Änderungen. Der agile Ansatz ist wertgetrieben, der Fokus liegt auf der Maximierung des Wertes für den Kunden, auch bei Anpassungen an den ursprünglich geplanten Zielen.
+
+Die Auswahl zwischen klassischem oder agilem Projektmanagement hängt von verschiedenen Faktoren ab. Bei klaren Anforderungen und langfristigen Planungen bieten sich klassische Ansätze an. Agile Ansätze bieten sich an, wenn Flexibilität, schnelles Feedback, iterative Verbesserungen und Kundenorientierung im Mittelpunkt stehen.\\ Letztendlich bieten beide Methoden Vor- und Nachteile, die Entscheidung sollte auf den spezifischen Projektanforderungen basieren.
 
 \subsection {Agile Methoden}
 \subsubsection{Scrum}
@@ -79,7 +92,7 @@ Scrum besteht aus den Rollen \textbf{Product Owner}, \textbf{Scrum Master} und \
 Die Artefakte bei Scrum liefern Informationen zu Arbeit und Fortschritt und sind so definiert, dass sie Transparenz bieten, sowie Möglichkeiten zur Überprüfung und Anpassung erlauben.\\ Das \textbf{Produkt Backlog} enthält alle Aufgaben und Anforderungen eines Produkts und wird vom Product Owner verantwortet. Das Product Backlog ist nie final, weil bei der Entwicklung des Produkts neue Anforderungen, Verbesserungen oder Fehler bekannt werden, die bearbeitet werden müssen. Das \textbf{Sprint Backlog} enthält eine Teilmenge der Aufgaben des Product Backlogs. Diese Aufgaben sollen innerhalb dieses Sprints umgesetzt werden.\\ Das \textbf{Inkrement} ist das Ergebnis der im Sprint umgesetzten Arbeit, welches die zuvor erstellten Inkremente erweitert.\\\\
 Scrum ist auf kleine Teamgrößen ausgelegt. Das Scrum Team ist klein genug, um flexibel zu bleiben, aber gleichzeitig groß genug, um innerhalb eines Sprints bedeutsame Arbeit zu leisten. In der Regel besteht es aus zehn Personen oder weniger.\cite{Mucke.2024}\\
 Ein Merkmal von Scrum ist die klare Abgrenzung der Verantwortlichkeiten. Außenstehende können Einfluss auf das Projekt nehmen, indem sie ihre Änderungswünsche dem Product Owner mitteilen. Es werden innerhalb dieses Sprints aber keine Änderungen an den Anforderungen für diesen Zeitraum vorgenommen, weil das das Entwicklungsteam stören würde. Der Product Owner nimmt die Anforderungen in das Product Backlog auf, welche dann in späteren Sprints bearbeitet werden.\cite{Gluck.2022}
-
+\newpage
 \subsubsection{Kanban}
 Kanban ist eine agile Projektmanagementmethode, die heutzutage in der Softwareentwicklung verwendet wird. Ursprünglich wurde Kanban von einem Toyota-Ingenieur entwickelt, um das Produktionssytem von Toyota zu verbessern. Dabei orientierte man sich an der tatsächlichen Nachfrage, anstatt wie zuvor Produkte auf Grundlage geschätzter Bedarfszahlen zu produzieren.\cite{Simschek.2022}
 
@@ -96,8 +109,7 @@ In diesem Abschnitt werden sechs Praktiken vorgestellt, welche beachtet werden s
 \item Die grafische Darstellung von Abläufen hilft, Prozesse besser zu verstehen und mögliche Lösungswege aufzuzeigen.
 \end{enumerate}
 
-Kanban ermöglicht durch das Kanban Board eine Transparenz, jeder im Team weiß, wer gerade woran arbeitet und wie der Stand der Aufgaben ist. Außerdem hilft das Kanban Board dabei, den Überblick zu behalten und somit auch Engpässe aufzuspüren. Ein weiterer Vorteil ist die flexible Anpassung an die Kundenbedürfnisse, was die Kundenzufriedenheit erhöht. Die einzelnen Bedürfnisse, sei es die Entwicklung eines neuen Produkts oder eine Änderung, werden nach den Anforderungen des Kunden erstellt und als neue Karte auf dem Kanban-Board hinzugefügt.
-
+Kanban ermöglicht durch das Kanban Board eine Transparenz, jeder im Team weiß, wer gerade woran arbeitet und wie der Stand der Aufgaben ist. Außerdem hilft das Kanban Board dabei, den Überblick zu behalten und somit auch Engpässe aufzuspüren. Ein weiterer Vorteil ist die flexible Anpassung an die Kundenbedürfnisse, was die Kundenzufriedenheit erhöht. Die einzelnen Bedürfnisse, sei es die Entwicklung eines neuen Produkts oder eine Änderung, werden nach den Anforderungen des Kunden erstellt und als neue Karte auf dem Kanban-Board hinzugefügt.\\\\\\
 \subsubsection{Vorteile von agilen Arbeitsweisen}
 Der entscheidende Vorteil in der Agilität liegt in der Anpassungs- und Reaktionsfähigkeit. Bei der klassischen Arbeitsweise wird ein Projekt am Anfang so detailliert wie möglich durchgeplant. Dieser Ansatz ist sehr aufwendig und benötigt viele Ressourcen. Das Problem dabei ist, dass bei auftretenden Änderungen oder unerwarteten Problemen eine Umorganisierung der Pläne schwierig ist oder in manchen Fällen gar nicht möglich ist.\\
 Bei der agilen Arbeitsweise wird zunächst grob geplant und der Detailgrad immer erst bei Bedarf erhöht. Statt alles am Anfang festzulegen, wird immer nur das geplant, was aktuell absehbar ist. Dadurch wird verhindert, dass unnötig Zeit und Ressourcen in Pläne investiert werden, die später sowieso wieder überarbeitet oder verworfen werden müssen.\cite{Theobald.2021}
@@ -111,8 +123,7 @@ Die größere Verantwortung und die Freiheit, direkt auf den Projekterfolg einzu
 Unternehmen, die agile Arbeitsweisen verwenden, werden von jungen Bewerbern als moderne und attraktive Arbeitgeber wahrgenommen. Durch den Einsatz von agilen Methoden wird potenziellen Mitarbeitern signalisi
 ert, dass ihnen Werte wie Autonomie und Zusammenarbeit wichtig sind.\cite{personio.2024}
 
-
-
+\newpage
 \section{Gründe für das Scheitern mit agilen Methoden}
 
 Obwohl agile Methoden wie Scrum und Kanban viele Vorteile bieten, scheitern deren Implementierungen in der Praxis häufig aus verschiedenen Gründen. \\
@@ -132,12 +143,12 @@ Obwohl agile Methoden wie Scrum und Kanban viele Vorteile bieten, scheitern dere
 	            };
        	\end{axis}
     \end{tikzpicture}
-    \label{umfrage}
+    \label{umfrage_}
     \caption{Umfrage zur Zufriedenheit von Agilität}
     %\cite{StateofAgil2023}
 \end{figure}
 
-In Abbildung 1 sind die Ergebnisse der Umfrage vom State of Agile Report von 2023 abgebildet. Es geht dabei um die Zufriedenheit von Agilität. Dabei sind 18\% der Befragten sehr zufrieden und 42\% eher zufrieden, was zusammen 60\% zufriedene Teilnehmer ergibt. Im Vergleich zum Vorjahr, in dem noch 72\% zufrieden waren, stellt dies einen Rückgang dar. Außerdem sind 15\% gar nicht zufrieden, was ein deutlicher Anstieg im Vergleich zu den 6\% des Vorjahres ist. Nun stellt sich die Frage, warum die Zufriedenheit von Agilität weniger geworden ist.
+In Abbildung 2 sind die Ergebnisse der Umfrage vom State of Agile Report von 2023 abgebildet. Es geht dabei um die Zufriedenheit von Agilität. Dabei sind 18\% der Befragten sehr zufrieden und 42\% eher zufrieden, was zusammen 60\% zufriedene Teilnehmer ergibt. Im Vergleich zum Vorjahr, in dem noch 72\% zufrieden waren, stellt dies einen Rückgang dar. Außerdem sind 15\% gar nicht zufrieden, was ein deutlicher Anstieg im Vergleich zu den 6\% des Vorjahres ist. Nun stellt sich die Frage, warum die Zufriedenheit von Agilität weniger geworden ist.
 
 Einer der Hauptfaktoren ist der Widerstand gegen Veränderungen, insbesondere in etablierten Organisationsstrukturen, die auf hierarchischen Entscheidungsprozessen basieren. 
 Zudem fehlt es oft an ausreichendem Verständnis der agilen Prinzipien und deren konsequenter Anwendung, was zu einer fehlerhaften Umsetzung führt. 
@@ -182,9 +193,9 @@ Ein weiterer Konfliktpunkt ist die Fehlerkultur, also der Umgang mit Fehlern. Ag
 %%https://www.wavestone.com/de/insight/5-grunde-fur-das-scheitern-ihrer-agilen-transformation/#grund-5
 \subsection{Führungskräfte}
 Wie im vorherigen Grund schon angeschnitten, sind Führungskräfte ein weiterer Grund für den Erfolg oder Nichterfolg von Agilität. Wenn Führungskräfte den Mehrwert von agilem Arbeiten nicht erkennen und deshalb die Transformation nicht aktiv unterstützen, wird selbst ein hochmotiviertes Team kein Erfolg haben. Das Problem ist dabei, dass die Führungskräfte nicht voll dahinterstehen und bei Unsicherheiten oder Schwierigkeiten wieder auf alte Gewohnheiten zurückgegriffen wird. Dadurch werden die agilen Bemühungen untergraben und widersprüchliche Signale an die Mitarbeiter gesendet.\\
-Es macht eine gute Führungskraft aus, sich auf Veränderungen einzulassen und eine aktive Rolle im Prozess der Transofrmation einnehmen, sodass auch die Mitarbeiter an diese Veränderung glauben.\\\\
+Es macht eine gute Führungskraft aus, sich auf Veränderungen einzulassen und eine aktive Rolle im Prozess der Transformation einzunehmen, sodass auch die Mitarbeiter an diese Veränderung glauben.\\\\
 %https://www.cleverlance.de/de/blog/Seiten/agile-transformation.aspx
-Bei der agilen Führung haben Führungskräfte eine andere Rolle als bei einer tradioneller Unternehmenskultur. Anstatt zu dirigieren und zu kontrollieren sollten sie eine eher beratende Rolle einnehmen. Dabei sollten Führungskräfte dem Entwicklungsteam als Begleiter und Coaches zur Verfügung stehen und das Entwicklungsteam die Entscheidungen treffen lassen. Außerdem sollten sie die Stärken der einzelnen Mitarbeiter erkennen und fördern. Somit tragen sie zur Weiterentwicklung der Mitarbeiter bei. Außerdem sollten sie die Mitarbeiter gemäß ihrer Kompetenzen einsetzen.\\
+Bei der agilen Führung haben Führungskräfte eine andere Rolle als bei einer tradionellen Unternehmenskultur. Anstatt zu dirigieren und zu kontrollieren sollten sie eine eher beratende Rolle einnehmen. Dabei sollten Führungskräfte dem Entwicklungsteam als Begleiter und Coaches zur Verfügung stehen und das Entwicklungsteam die Entscheidungen treffen lassen. Außerdem sollten sie die Stärken der einzelnen Mitarbeiter erkennen und fördern. Somit tragen sie zur Weiterentwicklung der Mitarbeiter bei. Außerdem sollten sie die Mitarbeiter gemäß ihrer Kompetenzen einsetzen.\\
 Viele Führungskräfte haben Schwierigkeiten, diese Rolle anzunehmen und Verantwortung abzugeben. Sie treffen dann oft selbst entscheidende Entscheidungen. Dadurch hat das Team den Eindruck, nicht ausreichend Vertauen zu bekommen, was zu Demotivation und Frustration führen kann. Mittarbeiter haben das Gefühl, entmachtet zu sein und nur noch Anweisungen auszuführen, anstatt eigenständig Probleme zu lösen und Verantwortung zu übernehmen.
 
 Ein weiteres Hindernis ist die mangelnde Klarheit bezüglich der Ziele und Prioritäen. Agile Methoden wie Scrum oder Kanban erfordern regelmäßige Überprüfungen und Anpassungen der Ziele. Teams benötigen klare Ziele, um effektiv zusammenarbeiten zu können. Wenn Führungskräfte nicht in der Lage sind, Ziele und Prioritäten verständlich zu kommunizieren, führt das zu Ineffizienz, weil die Arbeitsergebnisse nicht den Erwartungen entsprechen und die Anforderungen verfehlen.
