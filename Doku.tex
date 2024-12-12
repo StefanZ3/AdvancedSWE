@@ -10,6 +10,7 @@
 \usepackage{cleveref} % für bequeme Referenzen, siehe \cref unten
 
 \usepackage{embrac}% upright brackets in emphasised text, () and [], empfohlen
+\usepackage{pgfplots}
 
 %\usepackage{biblatex}% besser als bibtex, aber dann biber statt bibtex benutzen
 
@@ -107,13 +108,37 @@ Außerdem fördert Agilität Innovation und Kreativität. Dafür gibt es mehrere
 
 Die größere Verantwortung und die Freiheit, direkt auf den Projekterfolg einzuwirken, kann die Motivation der Mitarbeitenden erhöhen. Gleichzeitig wirkt sich die selbstorganisierte Arbeitsweise positiv auf die Arbeitsatmosphäre aus, da Stress vermieden wird, der durch starre Hierarchien verursacht wird. Außerdem führen die kurzen Planungsintervalle und die Unterteilung der Arbeit in kleine Aufgabenpakete zu mehreren erreichbaren Zielen, wodurch während eines Projekts mehrere Erfolgserlebnisse entstehen.\cite{Theobald.2021}
 
-Unternehmen, die agile Arbeitsweisen verwenden, werden von jungen Bewerbern als moderne und attraktive Arbeitgeber wahrgenommen. Durch den Einsatz von agilen Methoden wird potenziellen Mitarbeitern signalisiert, dass ihnen Werte wie Autonomie und Zusammenarbeit wichtig sind.\cite{personio.2024}
+Unternehmen, die agile Arbeitsweisen verwenden, werden von jungen Bewerbern als moderne und attraktive Arbeitgeber wahrgenommen. Durch den Einsatz von agilen Methoden wird potenziellen Mitarbeitern signalisi
+ert, dass ihnen Werte wie Autonomie und Zusammenarbeit wichtig sind.\cite{personio.2024}
 
 
 
 \section{Gründe für das Scheitern mit agilen Methoden}
 
-Obwohl agile Methoden wie Scrum und Kanban viele Vorteile bieten, scheitern deren Implementierungen in der Praxis häufig aus verschiedenen Gründen. 
+Obwohl agile Methoden wie Scrum und Kanban viele Vorteile bieten, scheitern deren Implementierungen in der Praxis häufig aus verschiedenen Gründen. \\
+
+\begin{figure}[ht]
+    \begin{tikzpicture}
+     	 \begin{axis}[
+	            symbolic x coords={Sehr, Eher, Eher nicht, Gar nicht},
+	            xtick=data,
+		  ymin=0
+	          ]
+	            \addplot[ybar,fill=blue] coordinates {
+	                (Sehr,   18)
+	                (Eher,  42)
+	                (Eher nicht,   26)
+		      (Gar nicht, 15)
+	            };
+       	\end{axis}
+    \end{tikzpicture}
+    \label{umfrage}
+    \caption{Umfrage zur Zufriedenheit von Agilität}
+    %\cite{StateofAgil2023}
+\end{figure}
+
+In Abbildung 1 sind die Ergebnisse der Umfrage vom State of Agile Report von 2023 abgebildet. Es geht dabei um die Zufriedenheit von Agilität. Dabei sind 18\% der Befragten sehr zufrieden und 42\% eher zufrieden, was zusammen 60\% zufriedene Teilnehmer gibt. Im Vergleich zum Vorjahr, in dem noch 72\% zufrieden waren, stellt dies einen Rückgang dar. Außerdem sind 15\% gar nicht zufrieden, was ein deutlicher Anstieg im Vergleich zu den 6\% des Vorjahres ist. Nun stellt sich die Frage, warum die Zufriedenheit von Agilität weniger geworden ist.
+
 Einer der Hauptfaktoren ist der Widerstand gegen Veränderungen, insbesondere in etablierten Organisationsstrukturen, die auf hierarchischen Entscheidungsprozessen basieren. 
 Zudem fehlt es oft an ausreichendem Verständnis der agilen Prinzipien und deren konsequenter Anwendung, was zu einer fehlerhaften Umsetzung führt. 
 Ein weiterer kritischer Punkt ist die unzureichende Unterstützung durch das Management, wodurch die notwendigen Ressourcen oder die notwendige Kultur der Eigenverantwortung und Kollaboration nicht gefördert werden. 
@@ -144,6 +169,8 @@ Um der Kommerzialisierungsfalle zu entkommen, sollten Unternehmen kritisch mit d
 
 Die Kommerzialisierung zeigt, wie leicht eine sinnvolle Methodik durch den Fokus auf Profit und Formalitäten entwertet werden kann. Nur durch eine Rückbesinnung auf die grundlegenden Werte und eine maßvolle, pragmatische Anwendung kann Agilität ihren ursprünglichen Zweck erfüllen und nachhaltig zur Wettbewerbsfähigkeit von Unternehmen beitragen.
 \cite{heise.2024}
+
+
 
 \section{Auswirkungen}
 %- Auf die Teamdynamik (Frustration, Demotivation, Konflikte)
